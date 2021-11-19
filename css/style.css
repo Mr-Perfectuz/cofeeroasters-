@@ -1,3 +1,13 @@
+/* Custom Props  */
+:root{
+     --primary: #F3D7B7;
+     --secondary-color: #0A775F;
+     --body-color: #F8F8F2;
+     --article-color: #C99B67;
+}
+
+
+
 /* Global  */
 
 html{
@@ -17,9 +27,7 @@ body{
      padding: 0;
      margin: 0;
      display: flex;
-     font-size: 16px;
-     line-height: 1.5 ;
-     font-family: "Arial", sans-serif;
+     font-family: "Roboto","Arial", sans-serif;
      flex-direction: column;
      height: 100%;
      background-color: #fff;
@@ -37,8 +45,7 @@ img{
      min-width: 1200px;
      margin-left: auto;
      margin-right: auto;
-     padding-left: 50px;
-     padding-right: 50px;
+     padding: 0;
 }
 
 /* Main content  */
