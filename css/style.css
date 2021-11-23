@@ -86,6 +86,7 @@ img{
      padding: 0;
      padding-top: 40px;
      background-color: var(--primary);
+     margin-bottom: 110px;
      flex-grow: 1;
 }
 .site-header-container {
@@ -155,7 +156,9 @@ img{
      background-image: url(/img/cofee-image.png);
      background-repeat: no-repeat;
      background-position: left calc(50% + 386px) bottom;
-     object-fit: cover;
+     object-fit: contain;
+     background-color: var(--primary);
+     padding-bottom: 130px;
 
 }
 .site-header-content {
@@ -187,4 +190,67 @@ img{
 }
 .cta-btn {
      width: 100%;
+}
+
+<!-- MAIN SECTIONS  -->
+.main-section {
+     padding: 0;
+     margin: 0;
+     background-color:var(--body-color);
+     margin-left: 20px;
+     margin-right: 20px;
+}
+
+.main-content {
+     margin-right: 143px;
+     margin-left: 143px;
+}
+.main-header {
+     margin: 0;
+     margin-top: 50px;
+     margin-bottom: 80px;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 50px;
+     line-height: 59px;
+     text-align: center;
+     text-transform: uppercase;
+}
+.collections {
+     display: flex;
+}
+.collections-img {
+     width: 450px;
+     height: 375px;
+
+}
+.collections-box {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     max-width: 450px;
+     margin-top: 121px;
+}
+.collections-box-first, .collections-box-third{
+     margin-left: 117px;
+}
+.collections-box-second, .collections-box-fourth{
+     margin-right: 117px;
+}
+.collections-title {
+     margin: 0;
+     padding: 0;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 48px;
+     line-height: 56px;
+}
+.collections-text {
+     margin: 0;
+     padding: 0;
+     margin-top: 10px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 22px;
+     line-height: 34px;
 }
