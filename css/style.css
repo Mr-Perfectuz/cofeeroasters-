@@ -76,9 +76,9 @@ img{
      opacity: 0.6;
 }
 /* Main content  */
-.main-content{
+/* .main-content{
      flex-grow: 1;
-}
+} */
 
 /* SITE_HEADER  */
 .site-header {
@@ -192,7 +192,7 @@ img{
      width: 100%;
 }
 
-<!-- MAIN SECTIONS  -->
+/* <!-- MAIN SECTIONS  --> */
 .main-section {
      padding: 0;
      margin: 0;
@@ -202,8 +202,10 @@ img{
 }
 
 .main-content {
-     margin-right: 143px;
-     margin-left: 143px;
+     margin: 0;
+     padding: 0;
+     padding-right: 143px;
+     padding-left: 143px;
 }
 .main-header {
      margin: 0;
@@ -220,10 +222,46 @@ img{
      display: flex;
 }
 .collections-img {
+     display: block;
      width: 450px;
      height: 375px;
 
 }
+.collections-img-first{
+     display: flex;
+}
+
+/* Need to ask  */
+
+/* .collections-first::before{
+     background-image: url(/img/first-left-leaf.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: left top;
+     content:"";
+     width: 400px;
+     height: 300px;
+} */
+/* .collections-second::after{
+     background-image: url(/img/second-right-leaf.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: right bottom;
+     bottom: 59.48%;
+     content:"";
+     width: 400px;
+     height: 300px;
+} */
+/* .collections-second::after{
+     background-image: url(/img/third-right-leaf.png);
+     background-repeat: no-repeat;
+     background-size:in;
+     background-position: right bottom;
+     bottom: 59.48%;
+     content:"";
+     width: 400px;
+     height: 300px;
+} */
 .collections-box {
      padding: 0;
      margin: 0;
@@ -232,7 +270,7 @@ img{
      margin-top: 121px;
 }
 .collections-box-first, .collections-box-third{
-     margin-left: 117px;
+     margin-left: 143px;
 }
 .collections-box-second, .collections-box-fourth{
      margin-right: 117px;
