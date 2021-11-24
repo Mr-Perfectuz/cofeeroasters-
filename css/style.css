@@ -315,6 +315,15 @@ img{
      padding: 0;
      background-color: var(--article-color);
      height: 703px;
+     position: relative;
+}
+.but-first-coofee-img-1{
+     position: absolute;
+     left: 0%;
+     right: 90.28%;
+     top: 31.04%;
+     bottom: 35.84%;
+
 }
 .info-section-header {
      margin: 0;
@@ -391,6 +400,15 @@ img{
      display: flex;
      flex-direction: column;
      background-color: var(--secondary-color);
+     position: relative;
+}
+.article-section-img{
+     position: absolute;
+     top: 5%;
+     left: 80%;
+     width: 192px;
+     height: 129px;
+     /* transform: rotate(16.96deg); */
 }
 .article-section-header {
      font-style: normal;
