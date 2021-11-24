@@ -157,6 +157,15 @@ img{
      padding-bottom: 130px;
 
 }
+.img-center{
+     position:absolute;
+     transform: rotate(-25deg);
+     left: 47%;
+     top: 70px;
+     width: 160px;
+     height: 160px;
+
+}
 .site-header-content {
      display: block;
      flex-direction: column;
