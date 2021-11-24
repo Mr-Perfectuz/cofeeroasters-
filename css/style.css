@@ -215,10 +215,11 @@ img{
 .first-left-img {
      position: absolute;
      left: -12.53%;
+     top: 1%;
 }
 .second-right-img {
      position: absolute;
-     left: 88.64%;
+     right: -15.53%;
      top: 24%;
      transform: matrix(0.96, -0.29, 0.29, 0.96, 0, 0);
 
