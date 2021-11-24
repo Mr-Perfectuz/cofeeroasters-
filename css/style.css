@@ -45,7 +45,7 @@ img{
 /* CONTAINER  */
 .container{
      width: 100%;
-     max-width: 1400px;
+     max-width: 1440px;
      padding: 0;
      margin-left: auto;
      margin-right: auto;
@@ -198,8 +198,6 @@ img{
 }
 
 .main-content {
-     margin: 0;
-     padding: 0;
      padding-right: 143px;
      padding-left: 143px;
 }
@@ -214,63 +212,39 @@ img{
      text-align: center;
      text-transform: uppercase;
 }
+
+/* Collections  */
+.collectioins-inner:last-child{
+     margin-bottom: 50px;
+}
 .collections {
      display: flex;
+     /* margin-left: auto; */
+     align-items: space-between;
+     align-items: center;
+}
+
+.collections:not(:last-child){
+     margin-bottom: 121px;
+}
+.collections:nth-child(even){
+     flex-direction: row-reverse;
+     /* background-color: rgb(136, 99, 99); */
+
 }
 .collections-img {
-     display: block;
+     display: flex;
+     justify-content: flex-end;
      width: 450px;
      height: 375px;
-
-}
-.collections-img-first{
-     display: flex;
-}
-
-/* Need to ask  */
-
-/* .collections-first::before{
-     background-image: url(/img/first-left-leaf.png);
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: left top;
-     content:"";
-     width: 400px;
-     height: 300px;
-} */
-/* .collections-second::after{
-     background-image: url(/img/second-right-leaf.png);
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: right bottom;
-     bottom: 59.48%;
-     content:"";
-     width: 400px;
-     height: 300px;
-} */
-/* .collections-second::after{
-     background-image: url(/img/third-right-leaf.png);
-     background-repeat: no-repeat;
-     background-size:in;
-     background-position: right bottom;
-     bottom: 59.48%;
-     content:"";
-     width: 400px;
-     height: 300px;
-} */
-.collections-box {
-     padding: 0;
-     margin: 0;
-     width: 100%;
-     max-width: 450px;
-     margin-top: 121px;
-}
-.collections-box-first, .collections-box-third{
-     margin-left: 143px;
-}
-.collections-box-second, .collections-box-fourth{
      margin-right: 117px;
 }
+
+.collections-box {
+     width: 100%;
+     max-width: 450px;
+}
+
 .collections-title {
      margin: 0;
      padding: 0;
@@ -288,6 +262,8 @@ img{
      font-size: 22px;
      line-height: 34px;
 }
+
+/* INFO SECTION  */
 
 .info-section {
      margin: 0;
@@ -320,9 +296,9 @@ img{
      text-align: center;
      color: #FFFFFF;
 }
+
+/* INFO BOX SECTION  */
 .info-section-box-wrapper{
-     padding: 0;
-     margin: 0;
      display: flex;
      align-items: center;
      margin-top: 80px;
