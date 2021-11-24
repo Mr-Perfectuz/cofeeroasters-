@@ -134,7 +134,7 @@ img{
 }
 
 .sitenav-link:hover{
-     opacity: 0.6;
+     color: var(--secondary-color);
 }
 
 .sitenav-link:active{
@@ -476,6 +476,7 @@ img{
      width: 30px;
      height: 30px;
 }
+
 .site-footer-social-item:not(:last-child){
      margin-right: 30px;
 }
