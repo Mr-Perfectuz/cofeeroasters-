@@ -157,11 +157,14 @@ img{
      padding-bottom: 130px;
 
 }
+.img-center-wrapper{
+     position: relative;
+}
 .img-center{
      position:absolute;
      transform: rotate(-25deg);
      left: 47%;
-     top: 70px;
+     top: -60px;
      width: 160px;
      height: 160px;
 
@@ -204,6 +207,38 @@ img{
      background-color:var(--body-color);
      margin-left: 20px;
      margin-right: 20px;
+     position: relative;
+}
+.collection-images {
+     position: relative;
+}
+.first-left-img {
+     position: absolute;
+     left: -12.53%;
+}
+.second-right-img {
+     position: absolute;
+     left: 88.64%;
+     top: 24%;
+     transform: matrix(0.96, -0.29, 0.29, 0.96, 0, 0);
+
+}
+.fourth-left-img {
+     position: absolute;
+     left: -13.61%;
+     right: 91.67%;
+     top: 42.05%;
+     bottom: 100%;
+     transform: rotate(-7deg);
+}
+.third-right-img {
+     position: absolute;
+     left: 92.64%;
+     top: 28%;
+     right: -25.76%;
+     bottom: 49.72%;
+
+
 }
 
 .main-content {
